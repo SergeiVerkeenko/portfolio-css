@@ -66,11 +66,13 @@ header nav p:not(:last-child) {
     justify-content: space-between;
     height: 300px;
 }
-.project-left-side div h2{
-   font: 500 24px 'DM Sans';
-   color: #181717;
+
+.project-left-side div h2 {
+    font: 500 24px 'DM Sans';
+    color: #181717;
 
 }
+
 .main p {
     font-size: 32px;
     color: #606060;
@@ -131,10 +133,11 @@ footer nav {
     display: flex;
 }
 
-footer div p{
+footer div p {
     color: #2429AF;
     font-weight: 500;
 }
+
 footer nav p:not(:last-child) {
     margin-right: 30px;
 }

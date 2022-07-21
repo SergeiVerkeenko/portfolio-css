@@ -32,14 +32,15 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
-main {
+.projects {
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
 }
+
 .container-project {
     display: flex;
 }
@@ -60,18 +61,114 @@ main {
     height: 500px;
 
 }
+
 .project-left-side h1 {
     font: 500 60px 'DM Sans';
     color: #181717;
     width: 450px;
 }
+
 .project-left-side p {
     font: 400 24px 'DM Sans';
     color: #606060;
 }
+
 .link {
     border-bottom: 2px solid black;
     width: 124px;
+    height: 28px;
     font: 500 22px 'DM Sans';
     color: #181717;
+}
+
+.container-centr {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 120px;
+    height: 400px;
+    margin-top: 51px;
+}
+
+.container-centr-2 {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 440px;
+    height: 400px;
+    margin-left: 63px;
+
+}
+
+.container-section {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.hr {
+    background-color: #181717;
+    height: 1px;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.end p{
+    font: 400 32px 'DM Sans';
+}
+.end {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 70px;
+}
+
+.end-left-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 70px;
+    width: 450px;
+}
+
+
+
+.end-left-side h2 {
+    font: 400 32px 'DM Sans';
+    color: #181717;
+    width: 450px;
+}
+
+.arrow {
+    background-image: url(../img/↓\ \(1\).svg);
+    width: 24px;
+    height: 21px;
+    background-repeat: no-repeat;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    width: 1120px;
+    margin-top: 120px;
+}
+
+footer nav {
+    display: flex;
+}
+
+footer div p {
+    color: #2429AF;
+        font-weight: 500;
+}
+
+footer nav p:not(:last-child) {
+    margin-right: 30px;
 }
